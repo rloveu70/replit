@@ -22,7 +22,7 @@ def main():
   file_handler.setFormatter(formatter)
   logger.addHandler(file_handler)
   
-  logger.info('테스트 로거입니다.')
+  logger.info('테스트 로거입니다!!.')
 
 if __name__ == '__main__':
   main()
