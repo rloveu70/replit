@@ -22,8 +22,11 @@ def main():
   file_handler.setFormatter(formatter)
   logger.addHandler(file_handler)
   
+  logger.info('테스트 로거입니다.')
 
 if __name__ == '__main__':
   main()
   mylib.do_something()
+  for i in range(10):
+    logging.info(f'{i}번째 방문자입니다.')
   
